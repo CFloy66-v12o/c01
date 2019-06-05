@@ -1,0 +1,10 @@
+var verb = prompt('Let\'s write a story, shall we? Enter a verb.');
+var noun = prompt('Great, now enter a noun.');
+var adjective = prompt('one more, enter an adjective.');
+
+var message = ' One day I was walking through the ' + verb + ',';
+message +=  ' when I came upon a ' + noun;
+message += ' frightened, I turned and ran straight into an ' + adjective + '.';
+alert('We\'ve made the story\! Now, Here it is.');
+
+document.write("<p style='font-size:2.5em'>" + message + "</p>");

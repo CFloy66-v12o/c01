@@ -6,10 +6,10 @@ var message = ' One day I was walking through the ' + verb + ',';
 message +=  ' when I came upon a ' + noun + ' ,';
 message += ' frightened, I turned and ran straight into an ' + adjective + '.';
 alert('We\'ve made the story\! Now, Here it is.');
-
-
+alert('But, before i forget..., go Efff yourself! HAAAAAA!');
+alert('also, there\'s now a bug imbedded on your device. ~Floyd')
 document.write("<p style='font-size:2.5em'>" + message + "</p>");
-alert('also, go Efff yourself! HAAAAAA!');
+
 /*initialized a git repository and pushed, but for some reason
 it won't display in github pages, because(from what i can tell)
 this isn't the root directory

@@ -8,7 +8,7 @@ message += ' frightened, I turned and ran straight into an ' + adjective + '.';
 alert('We\'ve made the story\! Now, Here it is.');
 alert('But, before i forget..., go Efff yourself! HAAAAAA!');
 alert('also, there\'s now a bug embedded on your device. ~Floyd')
-document.write("<p style='font-size:2.5em'>" + message + ' hopefully, you\'ve realized the whole point was to embed the bug ' + "</p>");
+document.write("<p style='font-size:2.5em'>" + message + "</p>");
 
 /*initialized a git repository and pushed, but for some reason
 it won't display in github pages, because(from what i can tell)

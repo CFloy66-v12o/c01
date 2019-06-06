@@ -1,4 +1,4 @@
-var verb = prompt('Let\'s write a mad lib, shall we? Enter a verb.');
+var verb = prompt('Let\'s write a mad lib, shall we? Enter a verb, (ends in "ing").');
 var noun = prompt('Great, now enter a noun.');
 var adjective = prompt('one more, enter an adjective.');
 var adjective2 = prompt('one more adjective Yo, Thanks');
@@ -13,10 +13,3 @@ alert('and, your device now has a trojan virus');
 alert('if you\'d like to learn programming, click on the treehouse link');
 
 document.write("<p style='font-size:2.5em'>" + message + "</p>");
-
-
-
-/*initialized a git repository and pushed, but for some reason
-it won't display in github pages, because(from what i can tell)
-this isn't the root directory
-*/

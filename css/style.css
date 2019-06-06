@@ -65,3 +65,8 @@ html{
     min-height:100%;}
 body{
     min-height:100%;}
+
+    .treehouse {
+      display: inline-block;
+      width: 75%
+    }

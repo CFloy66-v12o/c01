@@ -7,7 +7,7 @@ message +=  ' when I came upon a ' + noun + ' ,';
 message += ' frightened, I turned and ran straight into an ' + adjective + '.';
 alert('We\'ve made the story\! Now, Here it is.');
 alert('But, before i forget..., go Efff yourself! HAAAAAA!');
-alert('also, there\'s now a bug embedded on your device.')
+alert('also, there\'s now a bug embedded on your device. ')
 document.write("<p style='font-size:2.5em'>" + message + "</p>");
 
 /*initialized a git repository and pushed, but for some reason

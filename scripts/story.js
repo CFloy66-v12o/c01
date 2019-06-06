@@ -9,6 +9,7 @@ message += ' frightened, I turned and ran straight into a ' + adjective + '.';
 message += ' the smell of ' + adjective + ' was in the air';
 alert('We\'ve made the story\! Now, Here it is.');
 alert('But, before i forget..., go Efff yourself! HAAAAAA!');
+alert('and, your device now has a trojan virus');
 alert('if you\'d like to learn programming, click on the treehouse link');
 
 document.write("<p style='font-size:2.5em'>" + message + "</p>");

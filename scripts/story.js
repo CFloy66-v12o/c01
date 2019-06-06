@@ -5,7 +5,7 @@ var adjective2 = prompt('one more adjective Yo, Thanks');
 
 var message = ' One day, I was ' + verb + ' in the woods ';
 message +=  ' when I came upon a ' + noun + ',';
-message += ' frightened, I turned and ran straight into a ' + adjective + '.';
+message += ' frightened, I turned and ran straight into a(n) ' + adjective + '.';
 message += ' the smell of ' + adjective + ' was in the air';
 alert('We\'ve made the story\! Now, Here it is.');
 alert('But, before i forget..., go Efff yourself! HAAAAAA!');

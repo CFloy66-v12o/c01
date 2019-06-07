@@ -1,6 +1,6 @@
 var firstName = prompt('What is your first name?');
 if (firstName == 'claire6864') {
-  alert('Play the game you sexy thaaaang!');
+  alert('Play the game you sexy thaaaang! I love you!');
 } else {
   alert('You\'re not my wife but, I shall allow you in anyways.');
 }

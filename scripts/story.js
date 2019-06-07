@@ -7,11 +7,11 @@ if (firstName == 'claire6864') {
 }
 
 var isChrisADouche = prompt('before we start the mad lib, answer a quick question. Is this guy a douche, or what! (yes|no)');
-// var isChrisADouche = 'yes' || 'no';
+
 if (isChrisADouche === 'yes') {
-  alert('You\'re the douche`!');
+  alert('kiss my a**!');
 } else {
-  alert('come on in!');
+  alert('you\'re too kind.');
 }
 
 

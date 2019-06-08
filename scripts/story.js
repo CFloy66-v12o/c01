@@ -2,7 +2,7 @@ var firstName = prompt('What is your first name?');
 if (firstName === 'claire6864') {
   alert('Play the game you sexy thaaaang! I love you!');
 } else {
-  alert('You\'re not my wife but, I shall allow you in anyways, cause i like you.');
+  alert('well, You\'re not my wife but, I\'ll allow you in anyways, cause i like you ' + firstName + '.');
 }
 
 var isChrisADouche = prompt('before we start the mad lib, answer a quick question. Is this guy a douche, or what! (yes|no)');
@@ -28,7 +28,7 @@ alert('if you\'d like to learn programming, click on the treehouse link');
 
 
 var message = ' One day, I was ' + verb + ' in the woods ';
-message +=  ' when I came upon a ' + noun + '.';
+message +=  ' when I came upon a(n) ' + noun + '.';
 message += ' Frightened, I turned and ran straight into a(n) ' + adjective + ' ' + noun + '.';
 message += ' the smell of ' + adjective2 + ' was in the air';
 

@@ -1,6 +1,5 @@
-
 var firstName = prompt('What is your first name?');
-if (firstName == 'claire6864') {
+if (firstName === 'claire6864') {
   alert('Play the game you sexy thaaaang! I love you!');
 } else {
   alert('You\'re not my wife but, I shall allow you in anyways, cause i like you.');
@@ -35,5 +34,6 @@ message += ' the smell of ' + adjective2 + ' was in the air';
 
 
 document.write("<p style='font-size:2.5em'>" + message + "</p>");
+document.write("<p style='font-size: 2.5em'>Thanks for visiting .... " + firstName + "</p>");
 console.log(isChrisADouche);
 console.log(firstName);

@@ -1,26 +1,28 @@
 var firstName = prompt('What is your first name?');
-if (firstName === 'claire6864') {
-  alert('Play the game you sexy thaaaang! I love you!');
+if (firstName === 'branden@1') {
+  alert('Lick My fucken balls you WANKER wesley!');
 } else {
   alert('well, You\'re not my wife but, I\'ll allow you in anyways, cause i like you ' + firstName + '.');
 }
 
+
+
+
+
 var isChrisADouche = prompt('before we start the mad lib, answer a quick question. Is this guy a douche, or what! (yes|no)');
 
 if (isChrisADouche === 'yes') {
-  alert('kiss my a**!');
+  alert('slow your roll, D***!');
 } else {
   alert('you\'re too kind.');
 }
 
 
 
-
-
 var verb = prompt('Let\'s write a mad lib, shall we? Enter a verb, (ends in "ing").');
 var noun = prompt('Great, now enter a noun.');
-var adjective = prompt('one more, enter an adjective.');
-var adjective2 = prompt('one more adjective Yo, Thanks');
+var adjective = prompt('enter an adjective.');
+var adjective2 = prompt('one more adjective, Thanks');
 alert('We\'ve made the story\! Now, Here it is.');
 alert('But, before i forget..., have a great day! ');
 alert('if you\'d like to learn programming, click on the treehouse link');

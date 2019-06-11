@@ -1,5 +1,5 @@
 var firstName = prompt('What is your first name?');
-if (firstName === 'branden@1') {
+if (firstName === 'Branden@1') {
   alert('Lick My fucken balls you WANKER wesley!');
 } else {
   alert('well, You\'re not my wife but, I\'ll allow you in anyways, cause i like you ' + firstName + '.');
@@ -11,7 +11,7 @@ if (firstName === 'branden@1') {
 
 var isChrisADouche = prompt('before we start the mad lib, answer a quick question. Is this guy a douche, or what! (yes|no)');
 
-if (isChrisADouche === 'yes') {
+if (isChrisADouche === 'Yes') {
   alert('slow your roll, D***!');
 } else {
   alert('you\'re too kind.');

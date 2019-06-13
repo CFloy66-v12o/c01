@@ -6,26 +6,26 @@ var greeting;
 if (hourNow <= 12) {
   greeting = 'Good Morning!';
 }else if (hourNow <= 19) {
-  greeting = 'Good... late Afternoon!';
+  greeting = 'Good... late Afternoon/Evening!';
 }else if (hourNow >= 19) {
   greeting = 'Ahhh, after 7pm I see, Time to Relax!';
 }else {
   greeting = 'Welcome ' + firstName;
 }
 
-if (firstName === 'Branden@1') {
-  alert('Lick My fucken balls you WANKER wesley!');
+if (firstName === 'claire6864') {
+  alert('Hello my love! Have a great day!');
 } else {
   alert('well, You\'re not my wife but, I\'ll allow you in anyways, cause i like you ' + firstName + '.');
 }
 document.write("<p style='font-size: 2.5em'>" + greeting + "</p>");
 
 
-var isChrisADouche = prompt('before we start the mad lib, answer a quick question. Is this guy a douche, or what! (yes|no)');
-if (isChrisADouche === 'Yes' || 'yes') {
-  alert('slow your roll, D***!');
-} else {
-  alert('you\'re too kind.');
+var learnProgramming = prompt('before we start the mad lib, answer a quick question. Have you any interest in learning how to write code? (yes, you do)');
+if (learnProgramming === 'Yes' || 'yes') {
+  alert('click on the treehouse link in your browser!');
+} else if (learnProgramming === 'No' || 'no') {
+  alert('Enjoy the Mad Lib');
 }
 
 
@@ -45,5 +45,5 @@ message += ' the smell of ' + adjective2 + ' was in the air';
 
 document.write("<p style='font-size:2.5em'>" + message + "</p>");
 document.write("<p style='font-size: 2.5em'>Thanks for visiting .... " + firstName + ". " + " Don't forget to check out treehouse before you go. </p>");
-console.log(isChrisADouche);
+console.log(learnProgramming);
 console.log(firstName);

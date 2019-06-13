@@ -26,6 +26,8 @@ if (learnProgramming === 'Yes' || 'yes') {
   alert('click on the treehouse link in your browser!');
 } else if (learnProgramming === 'No' || 'no') {
   alert('Enjoy the Mad Lib');
+} else {
+  greeting = 'So, hows\'s your day?'
 }
 
 

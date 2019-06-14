@@ -5,9 +5,9 @@ var greeting;
 var learnProgramming;
 
 if (hourNow <= 12) {
-  greeting = 'Good Morning! ' + firstName.toUpperCase();
-} else if (hourNow >=12  <19) {
-  greeting = 'Good Afternoon! ' + firstName.toUpperCase();
+  greeting = 'Good Morning! '.toUpperCase() + firstName.toUpperCase();
+} else if (hourNow >=17) {
+  greeting = 'good, late afternoon! '.toUpperCase() + firstName.toUpperCase();
 }else if (hourNow >= 19) {
   greeting = 'Ahhh, after 7pm I see, Time to Relax! ' + firstName.toUpperCase();
 }else {
@@ -17,36 +17,48 @@ if (hourNow <= 12) {
 
 
 if (firstName === 'claire6864') {
-  alert('Hello my love! Have a great day!');
+  alert('Hello my love! Have a great day!'.toUppercase());
 } else {
   alert('well, You\'re not my wife but, I\'ll allow you in anyways, cause i like you ' + firstName + '.');
 }
 document.write("<p style='font-size: 2.5em'>" + greeting + "</p>");
 
 
-var learnProgramming = prompt('before we start the mad lib, answer a quick question. Have you any interest in learning how to write code?');
-if (learnProgramming === 'Yes' || 'yes') {
-  alert('click on the treehouse link in your browser!');
-} else if (learnProgramming === 'no') {
-    alert('Enjoy your day');
-} else {
-    alert('Enjoy your day');
-}
 
 
-var verb = prompt('Let\'s write a mad lib, shall we? Enter a verb, (ends in "ing").');
-var noun = prompt('Great, now enter a noun.');
-var adjective = prompt('enter an adjective.');
-var adjective2 = prompt('one more adjective, Thanks');
-alert('We\'ve made the story\! Now, Here it is.');
+
+alert('Let\'s write a mad lib, shall we? Title: "A dear John letter from a dude\'s hair."');
+alert('it\'s a bit of a lengthy Mad Lib. Show some intestinal fortitude!');
+var fatGuy = prompt ('Name of fatguy you know?');
+var obnoxiousFans = prompt('Enter a sports team with really obnoxious fans.');
+var cheeseSteaks = prompt('Enter a good place to get cheese steaks.');
+var stripClub = prompt('Silly name for a strip club.');
+var hairProduct = prompt('Enter a favorite hair product.');
+var farmAnimal = prompt('Enter the name of a farm animal.');
+var italianGuy = prompt('Annoying italian barber you may know.');
+var skinMag = prompt('Favorite skin mag?');
+var barberShop = prompt('Name of a real crappy barber shop.');
+var sluttyX = prompt('Name of Ex (or current) who slept with your best friend.');
+var bodyPart = prompt('Name a body part.');
+var cartoonChar = prompt('The name of a cartoon character.');
+var womensCableNet = prompt('Name of a women\'s cable network.' );
+var stinkySnack = prompt('Name a smelly snack food.');
+var deadBaldActor = prompt('Name a dead, bald actor.');
+var stripper = prompt('Stripper named after a spice.');
+alert('We\'ve made the story! Now, Here it is.');
 alert('But, before i forget..., have a great day! ');
-alert('if you\'d like to learn programming, click on the treehouse link');
 
-var message = ' One day, I was ' + verb + ' in the woods ';
-message +=  ' when I came upon a(n) ' + noun + '.';
-message += ' Frightened, I turned and ran straight into a(n) ' + adjective + ' ' + noun + '.';
-message += ' the smell of ' + adjective2 + ' was in the air';
 
+var message = 'Dear ' + fatGuy + ', ';
+message +=  ' I\'m leaving you. You\'ve worn one too many ' + obnoxiousFans + ' hats.';
+message += ' Everytime you leave the house, you go to (the) ' + cheeseSteaks + ' or ' + stripClub + ' you\'re covering me up.';
+message += ' it\'s like you\'re embarassed to be seen with me ' + '.' + ' When you\'re not covering  me up with a hat,';
+message += ' you just smother me with ' + hairProduct + ' that smells like ' + farmAnimal + '.';
+message += ' You used to care about me. You\'d go to ' + italianGuy + '\'s barber shop. He had all those issues of ' + skinMag + ' in the waiting area.';
+message += 'But then, you started going to ' + barberShop + '. ' + ' It\'s like you stopped caring.';
+message += ' I suppose when ' + sluttyX + ' broke up with you, it was hard. She would run her ' + bodyPart + ' through me. That was fabulous!';
+message += ' She even convinced you to stop shaving ' + cartoonChar + ' into the side of your head. Once she was gone, you were never the same.';
+message += ' You sat around the house watching ' + womensCableNet + ',' + ' eating ' + stinkySnack + ',' + ' while covering me up.';
 
 document.write("<p style='font-size:2.5em'>" + message + "</p>");
 document.write("<p style='font-size: 2.5em'>Thanks for visiting .... " + firstName.toUpperCase() + ". " + " Don't forget to check out treehouse before you go. </p>");

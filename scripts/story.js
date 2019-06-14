@@ -2,17 +2,19 @@ var firstName = prompt('What is your first name?');
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
-
+var learnProgramming;
 
 if (hourNow <= 12) {
-  greeting = 'Good Morning!';
-}else if (hourNow <= 19) {
-  greeting = 'Good... late Afternoon!';
+  greeting = 'Good Morning! ' + firstName.toUpperCase();
+} else if (hourNow >=12  <19) {
+  greeting = 'Good Afternoon! ' + firstName.toUpperCase();
 }else if (hourNow >= 19) {
-  greeting = 'Ahhh, after 7pm I see, Time to Relax!';
+  greeting = 'Ahhh, after 7pm I see, Time to Relax! ' + firstName.toUpperCase();
 }else {
-  greeting = 'Welcome ' + firstName;
+  greeting = 'Welcome ' + firstName.toUpperCase();
 }
+
+
 
 if (firstName === 'claire6864') {
   alert('Hello my love! Have a great day!');
@@ -22,13 +24,13 @@ if (firstName === 'claire6864') {
 document.write("<p style='font-size: 2.5em'>" + greeting + "</p>");
 
 
-var learnProgramming = prompt('before we start the mad lib, answer a quick question. Have you any interest in learning how to write code? (yes, you do)');
+var learnProgramming = prompt('before we start the mad lib, answer a quick question. Have you any interest in learning how to write code?');
 if (learnProgramming === 'Yes' || 'yes') {
   alert('click on the treehouse link in your browser!');
-} else if (learnProgramming === 'No' || 'no') {
-  alert('Enjoy the Mad Lib');
+} else if (learnProgramming === 'no') {
+    alert('Enjoy your day');
 } else {
-  greeting = 'So, hows\'s your day?'
+    alert('Enjoy your day');
 }
 
 
@@ -47,6 +49,6 @@ message += ' the smell of ' + adjective2 + ' was in the air';
 
 
 document.write("<p style='font-size:2.5em'>" + message + "</p>");
-document.write("<p style='font-size: 2.5em'>Thanks for visiting .... " + firstName + ". " + " Don't forget to check out treehouse before you go. </p>");
+document.write("<p style='font-size: 2.5em'>Thanks for visiting .... " + firstName.toUpperCase() + ". " + " Don't forget to check out treehouse before you go. </p>");
 console.log(learnProgramming);
 console.log(firstName);

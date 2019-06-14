@@ -4,11 +4,11 @@ var hourNow = today.getHours();
 var greeting;
 var learnProgramming;
 
-if (hourNow === 7 || 8 || 9 || 10 || 11 ) {
+if (hourNow <= 11 ) {
   greeting = 'good morning! '.toUpperCase() + firstName.toUpperCase();
-} else if (hourNow === 12 || 13 || 14 || 15 ) {
+} else if (hourNow <= 16  ) {
   greeting = 'good afternon! '.toUpperCase() + firstName.toUpperCase();
-} else if (hourNow === 16 || 17 || 18 ) {
+} else if (hourNow <= 18 ) {
   greeting = 'good, late afternoon! '.toUpperCase() + firstName.toUpperCase();
 } else if (hourNow >= 19) {
   greeting = 'Ahhh, after 7pm I see, Time to Relax! '.toUpperCase() + firstName.toUpperCase();

@@ -1,5 +1,9 @@
 
-
+@media (min-width: 240px) and (max-width: 480px) {
+  body {
+    background: url("../images/Web_Designing.png") no-repeat center center fixed;
+  }
+}
 /* @import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic); */
 
 body {

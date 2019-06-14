@@ -3,10 +3,11 @@ var today = new Date();
 var hourNow = today.getHours();
 var greeting;
 
+
 if (hourNow <= 12) {
   greeting = 'Good Morning!';
 }else if (hourNow <= 19) {
-  greeting = 'Good... late Afternoon/Evening!';
+  greeting = 'Good... late Afternoon!';
 }else if (hourNow >= 19) {
   greeting = 'Ahhh, after 7pm I see, Time to Relax!';
 }else {

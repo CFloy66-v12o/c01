@@ -5,16 +5,19 @@ var greeting;
 var learnProgramming;
 
 if (hourNow <= 11 ) {
-  greeting = 'good morning! '.toUpperCase() + firstName.toUpperCase();
+  greeting = 'good morning! ' + firstName;
 } else if (hourNow <= 16  ) {
-  greeting = 'good afternon! '.toUpperCase() + firstName.toUpperCase();
+  greeting = 'good afternon! ' + firstName;
 } else if (hourNow <= 18 ) {
-  greeting = 'good, late afternoon! '.toUpperCase() + firstName.toUpperCase();
+  greeting = 'good, late afternoon! ' + firstName;
 } else if (hourNow >= 19) {
-  greeting = 'Ahhh, after 7pm I see, Time to Relax! '.toUpperCase() + firstName.toUpperCase();
+  greeting = 'it\'s after 7pm, Time to Relax! ' + firstName;
+} else if (hourNow <= 3) {
+  greeting = 'Why are you still awake?'
 } else {
-  greeting = 'Welcome '.ToUpperCase() + firstName.toUpperCase();
+    greeting = 'Welcome ' + firstName;
 }
+
 
 
 
@@ -23,7 +26,7 @@ if (firstName === 'claire6864') {
 } else {
   alert('well, You\'re not my wife but, I\'ll allow you in anyways, cause i like you ' + firstName + '.');
 }
-document.write("<p style='font-size: 2.5em'>" + greeting + "</p>");
+document.write("<p style='font-size: 2.5em'>" + greeting.toUpperCase() + "</p>");
 
 
 
